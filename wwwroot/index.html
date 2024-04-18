@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PorkTech Solution</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/testimonials/testimonial-3/assets/css/testimonial-3.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+    
+    </style>
+</head>
+<body>
+    <div class="w-100 bg-body-gradient">
+        <header class="text-white">
+            <div class="container ">
+                <nav class="navbar navbar-expand-sm navbar-dark">
+                    <div class="container-fluid">
+                        <img width="75" height="75" src="./fat_pig_logo_nobg.png" alt="logo">
+                        <button class="navbar-toggler bg-primary-gradient glow-on-hover px-3 py-2" type="button" data-bs-toggle="collapse" data-bs-target="#header-navigation"
+                            aria-controls="header-navigation" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="header-navigation">
+                            <div class="navbar-nav ms-auto ">
+                                <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#businessModal" style="cursor: pointer;">
+                                    Contact
+                                    <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="container text-white">
+            <section id="hero" class="container mt-5 mb-5 position-relative ">
+                <div class="row align-items-center ">
+                    <div class="col-md-8 col-12 text-center position-relative ">
+                        <h1 class="fw-bold mb-4">Advanced software, advanced techniques for <span class="text-uppercase text-primary-gradient">simple</span> life</h1>
+                        <p class="mb-5">We harness the latest technologies and tools to<br/> make your business shine as a star!</p>
+                        <button class="btn bg-primary-gradient text-white effect effect-2 mb-5" data-bs-toggle="modal" data-bs-target="#businessModal">
+                            Get a Quote
+                        </button>
+
+                        <div class="effect-circle-140-100" style="bottom: 30%; left: 20%;"></div>
+                    </div>
+                    <div class="col-md-4 col position-relative ">
+                        <div class="card border-0 border-primary bg-black-10-percent primary-gradient-thick-shadow mb-3">
+                            <div class="card-body p-4 p-xxl-5">
+                                <figure>
+                                    <img class="img-fluid rounded rounded-circle mb-4 border border-5" loading="lazy" src="./assets/img/testimonials-img-1.png" alt="">
+                                    <figcaption>
+                                        <div class="bsb-ratings text-warning mb-3" data-bsb-star="5" data-bsb-star-off="0"></div>
+                                        <blockquote class="bsb-blockquote-icon mb-4">I am very excited to be a seo company and I am very happy with our products that we offer to people, such as Massposting and other services, I really like our results and I am happy to see that my brainchild gives people what they want and expect.</blockquote>
+                                        <h4 class="mb-2">Max Kushnirenko</h4>
+                                        <h5 class="fs-6 mb-0">Company SEO</h5>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </section>
+            <section id="about-us" class="mt-5 text-center">
+                <div class="mb-4">
+                    <h2>About <span class="text-primary-gradient mb-2">PorkTech Solution</span></h2>
+                    <h3 class="fw-light h5 px-lg-5 mx-lg-5">At PorkTech Solution we believe in systematic approach for any project be it complex or simple. 
+                        We are a small group with set of various skill set varies from </h3>
+                </div>
+                <div class="row row-cols-md-2 row-cols-lg-3 row-cols-1 position-relative">
+                    <div class="col mb-4">
+                        <div class="card border-0 border-primary bg-black-10-percent primary-gradient-thick-shadow mb-3 fw-light h-100 rounded-5">
+                            <img src="./assets/img/ce-tech.svg" alt="cutting-edge logo" class="card-img w-50 px-5 px-xxl-5 py-2 pt-4 mx-auto ">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4 class="h5">Cutting edge technologies</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p class="fs-6">Take an advantage of cutting-edge modern solutions to maximize your return on investment</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card border-0 border-primary bg-black-10-percent primary-gradient-thick-shadow mb-3 fw-light h-100">
+                            <img src="./assets/img/idea.svg" alt="cutting-edge logo" class="card-img w-50 px-5 px-xxl-5 py-2 pt-4 mx-auto ">
+                            <div class="card-body p-4 p-xxl-5">
+                                <div class="card-title">
+                                    <h4 class="h5">Impeccable solutions</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p class="fs-6">A unique solution to modern problems using modern tools and creative solutions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4 mx-auto">
+                        <div class="card border-0 border-primary bg-black-10-percent primary-gradient-thick-shadow mb-3 fw-light h-100">
+                            <img src="./assets/img/fast-logo.svg" alt="cutting-edge logo" class="card-img w-50 px-5 px-xxl-5 py-2 pt-4 mx-auto ">
+                            <div class="card-body p-4 p-xxl-5">
+                                <div class="card-title">
+                                    <h4 class="h5">
+                                        Tailer Mode Development
+                                    </h4>
+                                </div>
+                                <div class="card-text">
+                                    <p class="fs-6">Scalable and dynamic systems with ever-changing trends to meet your dynamic business needs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="what-we-do" class="mt-5">
+                <div class="container">
+                    <h2 class="text-center mb-5">What we do and propose</h2>
+                    <div>
+                        <div class="overflow-hidden mb-3 position-relative primary-gradient-thick-shadow rounded-block" data-aos="fade-right" data-aos-delay="0">
+                            <div class="d-flex flex-row flex-column-lg">
+                                <div class="text-white py-4 col-lg-5 flex-grow-1 flex-lg-grow-0">
+                                    <h3 class="fs-2 fw-normal ps-5 mb-0">Bulk Posting</h3> 
+                                </div>
+                                <div class="ms-auto d-flex align-items-center topic-countblock">
+                                    <button class="btn btn-outline-danger-nohover glow-on-hover fs-5 col-md-auto p-3 mt-md-0 me-3" type="button" data-bs-toggle="collapse" onclick="buttonWithSvgClick(this)" data-bs-target="#dotnetCoreTopics0" aria-expanded="false" aria-controls="collapse" aria-label="Show C# Essentials detailed">
+                                        <svg width="2rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.41 8.58984L12 13.1698L16.59 8.58984L18 9.99984L12 15.9998L6 9.99984L7.41 8.58984Z" fill="currentColor"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="collapse px-4" id="dotnetCoreTopics0">
+                                <div id="telegram-bulk-posting" class="row row-cols-1 row-cols-lg-2 align-items-center mt-4 mb-5">
+                                    <div class="col order-2 order-lg-1">
+                                        <canvas id="telegram-diagram"></canvas>
+                                    </div>
+                                    <div class="col order-1 order-lg-2">
+                                        <h3 class="text-center ">Telegram</h3>
+                                        <p>In 2023, this social network has gained significant traction in the United States, witnessing a surge with 21.3 million downloads. Many users are turning to Telegram not just for messaging but also for job searches and service discoveries. Its simplicity, coupled with a secure environment, has made it a go-to platform for a growing number of Americans exploring employment opportunities and various services.</p>
+                                    </div>
+                                </div>
+
+                                <div id="facebook-bulk-posting" class="row row-cols-1 row-cols-lg-2 align-items-center mb-5">
+                                    <div class="col">
+                                        <h3 class="text-center ">Facebook</h3>
+                                        <p>
+                                            Widely remains consistently popular across all states, maintaining high usage rates. The platform serves as a go-to social network for people of diverse backgrounds. Notably, a large number of users turn to Facebook not just for staying connected but also for practical purposes, such as job hunting and service exploration. Its widespread adoption as a tool for both personal and professional endeavors highlights Facebook's enduring relevance in connecting people and facilitating various aspects of daily life.
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <canvas id="facebook-diagram"></canvas>
+                                    </div>
+                                </div>
+
+                                <div id="reddit-bulk-posting" class="row row-cols-1 row-cols-lg-2 align-items-center mb-5">
+                                    <div class="col order-2 order-lg-1">
+                                        <canvas id="reddit-diagram"></canvas>
+                                    </div>
+                                    <div class="col order-1 order-lg-2">
+                                        <h3 class="text-center ">Reddit</h3>
+                                        <p>
+                                            This social network has a long and great reputation as a website where people can find answers to their everyday problems. The number of users steadily increases every year. That's why many businesses have decided to join Reddit for either lead generation or recruiting purposes.
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr class="mt-5">
+                                <div class="d-flex justify-content-between align-items-center mb-4 mt-4">
+                                    <div class="fs-2">Have any questions left?</div>
+                                    <button class="btn bg-primary-gradient text-white fs-4 glow-on-hover px-4 py-3 text-nowrap " data-bs-toggle="modal" data-bs-target="#businessModal">Get a quote!</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="overflow-hidden mb-3 position-relative primary-gradient-thick-shadow rounded-block" data-aos="fade-right" data-aos-delay="0">
+                            <div class="d-flex flex-row flex-column-lg">
+                                <div class="text-white py-4 col-lg-5 flex-grow-1 flex-lg-grow-0">
+                                    <h3 class="fs-2 fw-normal ps-5 mb-0">Lead-Generation</h3> 
+                                </div>
+                                <div class="ms-auto d-flex align-items-center topic-countblock">
+                                    <button class="btn btn-outline-danger-nohover glow-on-hover fs-5 col-md-auto p-3 mt-md-0 me-3" type="button" data-bs-toggle="collapse" onclick="buttonWithSvgClick(this)" data-bs-target="#lead-generation-block" aria-expanded="false" aria-controls="collapse" aria-label="Show C# Essentials detailed">
+                                        <svg width="2rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.41 8.58984L12 13.1698L16.59 8.58984L18 9.99984L12 15.9998L6 9.99984L7.41 8.58984Z" fill="currentColor"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="collapse px-4" id="lead-generation-block">
+                                <div id="leadgen-source-and-purpose" class="row row-cols-1 row-cols-lg-2 align-items-center mt-4 mb-5">
+                                    <div class="col order-2 order-lg-1">
+                                        <div class="d-flex flex-column align-items-center">
+                                            <img src="./assets/img/leadgen-analitycs-1.png" alt="leadgen analitycs 1" class="img-fluid ">
+                                        </div>
+                                    </div>
+                                    <div class="col order-1 order-lg-2">
+                                        <h3 class="text-center ">Sources and purpose</h3>
+                                        <p>Our tool is designed to streamline B2B sales by tapping into diverse online sources such as Telegram supergroups and Facebook groups. It autonomously parses and detects posts containing valuable contact data and business information. By leveraging these platforms, the tool ensures a comprehensive reach, extracting vital details that lay the foundation for effective sales outreach.</p>
+                                    </div>
+                                </div>
+
+                                <div id="leadgen-outcomes" class="row row-cols-1 row-cols-lg-2 align-items-center mb-4">
+                                    <div class="col">
+                                        <h3 class="text-center ">Outcomes and Enhancements</h3>
+                                        <p>
+                                            The primary outcomes of our tool revolve around enhanced analytics and lead generation. Through its automated processes, it not only compiles extensive data about businesses but also provides valuable insights through analytics. This results in a more informed sales strategy and improved representation for sales teams. The tool empowers businesses with the ability to convert data into actionable leads, ultimately contributing to a more efficient and targeted sales approach.    
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex flex-column align-items-center">
+                                            <img src="./assets/img/leadgen-analitycs-2.png" alt="leadgen analitycs 2" class="img-fluid mx-auto ">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div id="leadgen-how-it-works" class="row row-cols-1 row-cols-lg-2 align-items-center mt-4 mb-5">
+                                    <div class="col order-2 order-lg-1">
+                                        <div class="d-flex flex-column align-items-center">
+                                            <img src="./assets/img/leadgen-execution-logs.png" alt="leadgen analitycs 3" class="img-fluid ">
+                                        </div>
+                                    </div>
+                                    <div class="col order-1 order-lg-2">
+                                        <h3 class="text-center ">How it works</h3>
+                                        <p>The inner workings of our tool are centered around a sophisticated parsing and detection mechanism. We utilize C# to analyze the message for the presence of required keywords or the absence of excluded words. If the message is deemed valid, it is then added to the collection along with all relevant data, including lead state, location, source, post date, post URL, and a link to the posting profile. After a 60-second interval, this information is submitted to the updatable lead database, for which a view has already been created</p>
+                                    </div>
+                                </div>
+
+                                <hr class="mt-5">
+                                <div class="d-flex justify-content-between align-items-center mb-4 mt-4 g-2">
+                                    <div class="fs-2">Have any questions left?</div>
+                                    <button class="btn bg-primary-gradient text-white fs-4 glow-on-hover px-4 py-3 text-nowrap " data-bs-toggle="modal" data-bs-target="#businessModal">Get a quote!</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="overflow-hidden mb-3 position-relative primary-gradient-thick-shadow rounded-block" data-aos="fade-right" data-aos-delay="0">
+                            <div class="d-flex flex-row flex-column-lg">
+                                <div class="text-white py-4 col-lg-5 flex-grow-1 flex-lg-grow-0">
+                                    <h3 class="fs-2 fw-normal ps-5 mb-0">Private Software</h3> 
+                                </div>
+                                <div class="ms-auto d-flex align-items-center topic-countblock">
+                                    <button class="btn btn-outline-danger-nohover glow-on-hover fs-5 col-md-auto p-3 mt-md-0 me-3" type="button" data-bs-toggle="collapse" onclick="buttonWithSvgClick(this)" data-bs-target="#private-software-block" aria-expanded="false" aria-controls="collapse" aria-label="Show C# Essentials detailed">
+                                        <svg width="2rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.41 8.58984L12 13.1698L16.59 8.58984L18 9.99984L12 15.9998L6 9.99984L7.41 8.58984Z" fill="currentColor"></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="collapse px-4" id="private-software-block">
+                                <div id="prsf-web" class="row row-cols-1 row-cols-lg-2 align-items-center mt-4 mb-5">
+                                    <div class="col order-2 order-lg-1">
+                                        <div class="d-flex flex-column align-items-center">
+                                            <img src="./assets/img/prsf-web.png" alt="leadgen analitycs 1" class="img-fluid ">
+                                        </div>
+                                    </div>
+                                    <div class="col order-1 order-lg-2">
+                                        <h3 class="text-center ">Web Applications/Microservices</h3>
+                                        <p>We are PorkTech Solution, we specialize in crafting dynamic web applications and microservices using ASP.NET. Our expertise lies in harnessing the robust capabilities of ASP.NET to create scalable and efficient solutions tailored to elevate your online presence. Whether it's building responsive web interfaces or developing agile microservices for seamless integration, our team ensures cutting-edge technology aligns with your business goals, fostering a digital landscape that propels your marketing efforts forward</p>
+                                    </div>
+                                </div>
+
+                                <div id="prsf-console" class="row row-cols-1 row-cols-lg-2 align-items-center mb-4">
+                                    <div class="col">
+                                        <h3 class="text-center ">CLI Applications/Tools</h3>
+                                        <p>
+                                            At our company, we excel in developing C# console applications to elevate your marketing strategies. Our applications are precision-engineered to automate processes, streamline communication, and enhance data analytics, providing a powerful edge to business   
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex flex-column align-items-center">
+                                            <img src="./assets/img/prsf-console.png" alt="leadgen analitycs 2" class="img-fluid mx-auto ">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div id="prsf-aim" class="row row-cols-1 row-cols-lg-2 align-items-center mt-4 mb-5">
+                                    <div class="col order-2 order-lg-1">
+                                        <div class="d-flex flex-column align-items-center">
+                                            <img src="./assets/img/prsf-code.png" alt="leadgen analitycs 3" class="img-fluid ">
+                                        </div>
+                                    </div>
+                                    <div class="col order-1 order-lg-2">
+                                        <h3 class="text-center ">Design-Perfomance Combined Orientation</h3>
+                                        <p>
+                                            Our tools and applications are meticulously crafted to deliver an optimal user experience, prioritizing both efficiency and speed. This commitment drives us to rapidly develop result-oriented programs using various high-performance web frameworks.
+
+In particular, our proficiency extends to leveraging the power of C# to build robust and scalable solutions.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <hr class="mt-5">
+                                <div class="d-flex justify-content-between align-items-center mb-4 mt-4 g-2">
+                                    <div class="fs-2">Have any questions left?</div>
+                                    <button class="btn bg-primary-gradient text-white fs-4 glow-on-hover px-4 py-3 text-nowrap " data-bs-toggle="modal" data-bs-target="#businessModal">Get a quote!</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <script>
+                            // Function to create a linear gradient
+                            function createLinearGradient(context, colors) {
+                                var gradient = context.createLinearGradient(0, 0, 0, 400); // Adjust the gradient dimensions as needed
+                        
+                                // Set color stops
+                                for (var i = 0; i < colors.length; i++) {
+                                    gradient.addColorStop(i / (colors.length - 1), colors[i]);
+                                }
+                        
+                                return gradient;
+                            }
+                        
+                            // Function to create and configure the Telegram chart
+                            function createChart(tdata, canvasId) {
+                                // Canvas setup
+                                const tgcanvas = document.getElementById(canvasId);
+                                const tgctx = tgcanvas.getContext('2d');
+                        
+                                // Chart configuration
+                                const chartConfig = {
+                                    type: 'bar',
+                                    data: tdata,
+                                    options: {
+                                        scales: {
+                                            y: {
+                                                beginAtZero: true,
+                                                ticks: {
+                                                    color: 'white'  // Set y-axis label color to white
+                                                },
+                                                grid: {
+                                                    color: 'rgba(255, 255, 255, 0.3)'  // Set x-axis grid color to white with 30% alpha
+                                                }
+                                            },
+                                            x: {
+                                                ticks: {
+                                                    color: 'white'  // Set x-axis label color to white
+                                                },
+                                                grid: {
+                                                    color: 'rgba(255, 255, 255, 0.3)'  // Set x-axis grid color to white with 30% alpha
+                                                }
+                                            }
+                                        },
+                                        plugins: {
+                                            tooltip: {
+                                                callbacks: {
+                                                    label: function(context) {
+                                                        return context.dataset.label + ': ' + context.parsed.y + ' mil';
+                                                    }
+                                                }
+                                            },
+                                            legend: {
+                                                display: true,
+                                                labels: {
+                                                    color: '#ffffff'
+                                                },
+                                                title: {
+                                                    fontColor: 'white',
+                                                    fontSize: 2
+                                                }
+                                            }
+                                        }
+                                    }
+                                };
+                        
+                                // Create the chart
+                                const myChart = new Chart(tgctx, chartConfig);
+                            }
+                        
+                            const tgcanvasId = "telegram-diagram";
+                            // Example data
+                            const tgctx = document.getElementById(tgcanvasId).getContext('2d');
+                            const telegramData = {
+                                labels: ['Egypt', 'Brazil', 'Indonesia', 'Russia', 'US'],
+                                datasets: [{
+                                    label: 'Telegram Downloads (mil)',
+                                    backgroundColor: createLinearGradient(tgctx, ['#22E1FF', '#1D8FE1', '#625EB1']),
+                                    data: [11.7, 13.8, 16.9, 18.2, 21.4]
+                                }]
+                            };
+
+                            const fbcanvasId = "facebook-diagram";
+                            // Example data
+                            const fbctx = document.getElementById(fbcanvasId).getContext('2d');
+                            const facebookData = {
+                                labels: ['Pennsylvania', 'Illinois', 'Florida', 'New York', 'California'],
+                                datasets: [{
+                                    label: 'Facebook users by state (mil)',
+                                    backgroundColor: createLinearGradient(fbctx, ['#22E1FF', '#1D8FE1', '#625EB1']),
+                                    data: [1.189, 1.47, 1.488, 2.2, 2.54]
+                                }]
+                            };
+
+
+                            const rdcanvasId = "reddit-diagram";
+                            // Example data
+                            const rdctx = document.getElementById(rdcanvasId).getContext('2d');
+                            const redditData = {
+                                labels: ['2020', '2021', '2022', '2023', '2024'],
+                                datasets: [{
+                                    label: 'Reddit users in US by year (mil)',
+                                    backgroundColor: createLinearGradient(rdctx, ['#22E1FF', '#1D8FE1', '#625EB1']),
+                                    data: [37.9, 43.3, 45.9, 48.3, 50.7]
+                                }]
+                            };
+                        
+                            // Call the function with example data
+                            createChart(telegramData, tgcanvasId);
+                            createChart(facebookData, fbcanvasId);
+                            createChart(redditData, rdcanvasId);
+                        </script>
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="mt-5 text-white bg-black-40-percent">
+            <div class="container py-2">
+                <div class="mt-5">
+                    <div class="row">
+                        <div id="contact-info" class="col">
+                            <h4 class="mb-3">Contact us</h4>
+                            <p>
+                                +1 347-370-4918
+                            </p>
+                            <p>
+                                info@porktech.org
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-1">
+                <p class="text-center">&#169;PorkTech Solution 2024 &#169;Copyright All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <div class="modal fade" id="businessModal" tabindex="-1" aria-labelledby="businessModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark text-white">
+            
+            <div class="modal-header">
+              <h5 class="modal-title" id="businessModalLabel">Business Information</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Business Form -->
+              <form id="businessForm" onsubmit="validateForm(event)" method="post">
+                <!--div id="error-block">
+                    <div class="rounded-block bg-danger-subtle text-danger py-3 px-4 mb-4">
+                        Message
+                    </div>
+                </div>
+
+                <div id="success-block">
+                    <div class="rounded-block bg-success-subtle text-success py-3 px-4 mb-4">
+                        Message
+                    </div>
+                </div-->
+                <div class="mb-3">
+                  <label for="businessName" class="form-label">Business Name</label>
+                  <input name="businessName" type="text" class="form-control bg-dark text-white" id="businessName" placeholder="Enter your business name" required>
+                </div>
+                <div class="mb-3">
+                  <label for="businessType" class="form-label">Business Type</label>
+                  <input name="businessType" type="text" class="form-control bg-dark text-white" id="businessType" placeholder="Enter your business type" required>
+                </div>
+                <div class="mb-3">
+                  <label for="contactEmail" class="form-label">Contact Email</label>
+                  <input name="contactEmail" type="email" class="form-control bg-dark text-white" id="contactEmail" placeholder="Enter your contact email" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="contactPhone" class="form-label">Contact Phone</label>
+                    <input name="contactPhone" type="tel" class="form-control bg-dark text-white" id="contactPhone" placeholder="Enter your contact phone" required>
+                  </div>
+                <!-- Add more fields as needed -->
+      
+                <div class="d-flex flex-column align-items-center ">
+                    <button type="submit" class="btn bg-primary-gradient effect effect-2 text-white">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script>
+        function buttonWithSvgClick(invoker) {
+            if(invoker.getAttribute("active") !== "true") {
+                invoker.setAttribute("active", "true");
+                return;
+            }
+
+            invoker.setAttribute("active", "false");
+        }
+        
+        function validateForm(event) {
+    event.preventDefault(); // Prevent the form from submitting by default
+
+    // Retrieve form input values
+    const businessName = document.getElementById('businessName').value.trim();
+    const businessType = document.getElementById('businessType').value.trim();
+    const contactEmail = document.getElementById('contactEmail').value.trim();
+    const contactPhone = document.getElementById('contactPhone').value.trim();
+
+    // Regular expressions for email and phone validation
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    const phoneRegex = /^(\+?1\s*[-.\s]*)?(\(\d{3}\)|\d{3})[-.\s]*\d{3}[-.\s]*\d{4}$/;
+
+    // Validation checks
+    if (businessName.length > 150) {
+        displayErrorBlock("Business name should be less than 150 characters.");
+        return;
+    }
+
+    if (businessType.length > 100) {
+        displayErrorBlock("Business type should be less than 100 characters.");
+        return;
+    }
+
+    if (!emailRegex.test(contactEmail)) {
+        displayErrorBlock("Invalid email format.");
+        return;
+    }
+
+    if (!phoneRegex.test(contactPhone)) {
+        displayErrorBlock("Invalid phone number format.");
+        return;
+    }
+
+    // If all validations pass, submit the form
+    const formData = {
+        businessName: businessName,
+        businessType: businessType,
+        contactEmail: contactEmail,
+        contactPhone: contactPhone
+    };
+
+    fetch('/api/form', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+    })
+    .then(response => {
+        if (response.ok) {
+            displaySuccessBlock("Form submitted successfully.");
+            // Optionally, reset the form
+            document.getElementById('businessForm').reset();
+        } else {
+            response.json().then(data => {
+                displayErrorBlock(data.msg);
+            }).catch(error => {
+                console.error('Error parsing JSON:', error);
+                displayErrorBlock("Failed to submit form. Please try again later.");
+            });
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        displayErrorBlock("Failed to submit form. Please try again later.");
+    });
+}
+
+function displayErrorBlock(message) {
+    const existingErrorBlock = document.getElementById('error-block');
+    if (existingErrorBlock) {
+        existingErrorBlock.remove();
+    }
+    const existingSuccessBlock = document.getElementById('success-block');
+    if (existingSuccessBlock) {
+        existingSuccessBlock.remove();
+    }
+
+
+    const errorBlock = document.createElement('div');
+    errorBlock.id = 'error-block';
+    errorBlock.innerHTML = `
+        <div class="rounded-block bg-danger-subtle text-danger py-3 px-4 mb-4">
+            ${message}
+        </div>
+    `;
+    const form = document.getElementById('businessForm');
+    form.insertBefore(errorBlock, form.firstChild);
+}
+
+function displaySuccessBlock(message) {
+    const existingErrorBlock = document.getElementById('error-block');
+    if (existingErrorBlock) {
+        existingErrorBlock.remove();
+    }
+    const existingSuccessBlock = document.getElementById('success-block');
+    if (existingSuccessBlock) {
+        existingSuccessBlock.remove();
+    }
+
+    const successBlock = document.createElement('businessForm');
+    successBlock.id = 'success-block';
+    successBlock.innerHTML = `
+        <div class="rounded-block bg-success-subtle text-success py-3 px-4 mb-4">
+            ${message}
+        </div>
+    `;
+    const form = document.getElementById('businessForm');
+    form.insertBefore(successBlock, form.firstChild);
+}
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
